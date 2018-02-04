@@ -60,15 +60,15 @@ include CMakeFiles/paradisecity.dir/flags.make
 CMakeFiles/paradisecity.dir/amxplugin.cpp.o: CMakeFiles/paradisecity.dir/flags.make
 CMakeFiles/paradisecity.dir/amxplugin.cpp.o: amxplugin.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnius/projects/paradise-city/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/paradisecity.dir/amxplugin.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/paradisecity.dir/amxplugin.cpp.o -c /home/agnius/projects/paradise-city/lib/amxplugin.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/paradisecity.dir/amxplugin.cpp.o -c /home/agnius/projects/paradise-city/lib/amxplugin.cpp
 
 CMakeFiles/paradisecity.dir/amxplugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/paradisecity.dir/amxplugin.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnius/projects/paradise-city/lib/amxplugin.cpp > CMakeFiles/paradisecity.dir/amxplugin.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnius/projects/paradise-city/lib/amxplugin.cpp > CMakeFiles/paradisecity.dir/amxplugin.cpp.i
 
 CMakeFiles/paradisecity.dir/amxplugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/paradisecity.dir/amxplugin.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnius/projects/paradise-city/lib/amxplugin.cpp -o CMakeFiles/paradisecity.dir/amxplugin.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnius/projects/paradise-city/lib/amxplugin.cpp -o CMakeFiles/paradisecity.dir/amxplugin.cpp.s
 
 CMakeFiles/paradisecity.dir/amxplugin.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/paradisecity.dir/amxplugin.cpp.o.provides.build: CMakeFiles/paradisec
 CMakeFiles/paradisecity.dir/src/main.cpp.o: CMakeFiles/paradisecity.dir/flags.make
 CMakeFiles/paradisecity.dir/src/main.cpp.o: src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnius/projects/paradise-city/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/paradisecity.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/paradisecity.dir/src/main.cpp.o -c /home/agnius/projects/paradise-city/lib/src/main.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/paradisecity.dir/src/main.cpp.o -c /home/agnius/projects/paradise-city/lib/src/main.cpp
 
 CMakeFiles/paradisecity.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/paradisecity.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnius/projects/paradise-city/lib/src/main.cpp > CMakeFiles/paradisecity.dir/src/main.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnius/projects/paradise-city/lib/src/main.cpp > CMakeFiles/paradisecity.dir/src/main.cpp.i
 
 CMakeFiles/paradisecity.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/paradisecity.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnius/projects/paradise-city/lib/src/main.cpp -o CMakeFiles/paradisecity.dir/src/main.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnius/projects/paradise-city/lib/src/main.cpp -o CMakeFiles/paradisecity.dir/src/main.cpp.s
 
 CMakeFiles/paradisecity.dir/src/main.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/paradisecity.dir/src/main.cpp.o.provides.build: CMakeFiles/paradiseci
 CMakeFiles/paradisecity.dir/sampgdk.c.o: CMakeFiles/paradisecity.dir/flags.make
 CMakeFiles/paradisecity.dir/sampgdk.c.o: sampgdk.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnius/projects/paradise-city/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/paradisecity.dir/sampgdk.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/paradisecity.dir/sampgdk.c.o   -c /home/agnius/projects/paradise-city/lib/sampgdk.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/paradisecity.dir/sampgdk.c.o   -c /home/agnius/projects/paradise-city/lib/sampgdk.c
 
 CMakeFiles/paradisecity.dir/sampgdk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/paradisecity.dir/sampgdk.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agnius/projects/paradise-city/lib/sampgdk.c > CMakeFiles/paradisecity.dir/sampgdk.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agnius/projects/paradise-city/lib/sampgdk.c > CMakeFiles/paradisecity.dir/sampgdk.c.i
 
 CMakeFiles/paradisecity.dir/sampgdk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/paradisecity.dir/sampgdk.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agnius/projects/paradise-city/lib/sampgdk.c -o CMakeFiles/paradisecity.dir/sampgdk.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agnius/projects/paradise-city/lib/sampgdk.c -o CMakeFiles/paradisecity.dir/sampgdk.c.s
 
 CMakeFiles/paradisecity.dir/sampgdk.c.o.requires:
 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC   -m32 -shared  -o paradisecity.so CMakeFiles/paradisecity.dir/amxplugin.cpp.o CMakeFiles/paradisecity.dir/src/main.cpp.o CMakeFiles/paradisecity.dir/sampgdk.c.o 
+/usr/bin/g++  -fPIC   -m32 -shared  -o paradisecity.so CMakeFiles/paradisecity.dir/amxplugin.cpp.o CMakeFiles/paradisecity.dir/src/main.cpp.o CMakeFiles/paradisecity.dir/sampgdk.c.o 

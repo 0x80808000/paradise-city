@@ -8,7 +8,7 @@ void SAMPGDK_CALL PrintTickCountTimer(int timerid, void *params) {
 }
 
 PLUGIN_EXPORT bool PLUGIN_CALL OnGameModeInit() {
-  SetGameModeText("Hello, World!");
+  SetGameModeText("Alahu Akbar");
   AddPlayerClass(0, 1958.3783f, 1343.1572f, 15.3746f, 269.1425f,
                  0, 0, 0, 0, 0, 0);
   SetTimer(1000, true, PrintTickCountTimer, 0);
@@ -17,6 +17,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL OnGameModeInit() {
 
 PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerConnect(int playerid) {
   SendClientMessage(playerid, 0xFFFFFFFF, "[PLUGIN] Sveikas prisijunges!");
+  SendClientMessage(playerid, 0xFFFFFFFF, "Spausk kazka ir gausi eura");
   return true;
 }
 
@@ -25,6 +26,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL OnPlayerRequestClass(int playerid,
   SetPlayerPos(playerid, 1958.3783f, 1343.1572f, 15.3746f);
   SetPlayerCameraPos(playerid, 1958.3783f, 1343.1572f, 15.3746f);
   SetPlayerCameraLookAt(playerid, 1958.3783f, 1343.1572f, 15.3746f, CAMERA_CUT);
+
   return true;
 }
 

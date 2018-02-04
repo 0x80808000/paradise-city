@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="paradisecity" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/agnius/projects/paradise-city/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/agnius/projects/paradise-city/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/agnius/projects/paradise-city/lib" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="paradisecity">
+         <Option output="/home/agnius/projects/paradise-city/lib/paradisecity.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/agnius/projects/paradise-city/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DHAVE_ALLOCA_H" />
+            <Add option="-DHAVE_INTTYPES_H" />
+            <Add option="-DHAVE_MALLOC_H" />
+            <Add option="-DHAVE_STDINT_H" />
+            <Add option="-DSAMPGDK_AMALGAMATION" />
+            <Add directory="/home/agnius/projects/paradise-city/lib" />
+            <Add directory="/home/agnius/projects/paradise-city/lib/amx" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 paradisecity" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="paradisecity/fast">
+         <Option output="/home/agnius/projects/paradise-city/lib/paradisecity.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/agnius/projects/paradise-city/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DHAVE_ALLOCA_H" />
+            <Add option="-DHAVE_INTTYPES_H" />
+            <Add option="-DHAVE_MALLOC_H" />
+            <Add option="-DHAVE_STDINT_H" />
+            <Add option="-DSAMPGDK_AMALGAMATION" />
+            <Add directory="/home/agnius/projects/paradise-city/lib" />
+            <Add directory="/home/agnius/projects/paradise-city/lib/amx" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 paradisecity/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/agnius/projects/paradise-city/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/agnius/projects/paradise-city/lib/amxplugin.cpp">
+         <Option target="paradisecity"/>
+      </Unit>
+      <Unit filename="/home/agnius/projects/paradise-city/lib/sampgdk.c">
+         <Option target="paradisecity"/>
+      </Unit>
+      <Unit filename="/home/agnius/projects/paradise-city/lib/sampgdk.h">
+         <Option target="paradisecity"/>
+      </Unit>
+      <Unit filename="/home/agnius/projects/paradise-city/lib/src/main.cpp">
+         <Option target="paradisecity"/>
+      </Unit>
+      <Unit filename="/home/agnius/projects/paradise-city/lib/src/main.def">
+         <Option target="paradisecity"/>
+      </Unit>
+      <Unit filename="/home/agnius/projects/paradise-city/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/agnius/projects/paradise-city/lib/cmake/AMXConfig.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/agnius/projects/paradise-city/lib/cmake/AddSAMPPlugin.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

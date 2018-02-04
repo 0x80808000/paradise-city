@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC   -m32 -shared  -o helloworld.so CMakeFiles/helloworld.dir/amxplugin.cpp.o CMakeFiles/helloworld.dir/helloworld.cpp.o CMakeFiles/helloworld.dir/sampgdk.c.o 
