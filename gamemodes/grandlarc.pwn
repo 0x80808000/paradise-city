@@ -1,15 +1,8 @@
 #include "../pawno/include/a_samp.inc"
 
-
 main()
 {
 	print("Serveris uzsikrove");
-}
-
-public OnGameModeInit()
-{
-	AddPlayerClass(247, 0.0, 0.0, 0.0, 0.0, 0, 0, 0, 0, 0, 0);
-	return 1;	
 }
 
 public OnPlayerConnect(playerid)
