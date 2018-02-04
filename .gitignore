@@ -1,4 +1,4 @@
-!gamemodes/*.amx
+/gamemodes/*.amx
 announce
 samp03svr
 samp-npc
